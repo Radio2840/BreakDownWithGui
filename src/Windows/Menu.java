@@ -26,6 +26,9 @@ public class Menu implements ActionListener{
         myPanelForButtons.add(settingsB);
         myPanelForButtons.add(aboutMeB);
         playB.addActionListener(this);
+        helpB.addActionListener(this);
+        settingsB.addActionListener(this);
+        aboutMeB.addActionListener(this);
         myPanelForMenu.setBounds(0,0,sizeOfWindow.width,100);
         menuLabel.setFont(new Font("Serif", Font.PLAIN, 80));
         //myPanelForButtons.setBackground(Color.pink);
@@ -45,6 +48,15 @@ public class Menu implements ActionListener{
         if(e.getSource()==playB) {
             menu.dispose();
             Game gameWindow = new Game();
+        }
+        if(e.getSource()==helpB){
+            Help helpWindow = new Help();
+        }
+        if(e.getSource()==aboutMeB){
+            AboutMe aboutMeWindow = new AboutMe();
+        }
+        if(e.getSource()==settingsB){
+            Settings settingsWindow = new Settings();
         }
     }
 }
