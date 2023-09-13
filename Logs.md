@@ -9,3 +9,7 @@
 2. Created Package Windows that will have all my windows that I need, It have two classes:
     - Menu that only show white window for the moment
     - Game empty file for the moment
+#### Version 0.1:
+1. Added new windows:
+    - Menu with menu label and 4 buttons. Button play opens window game and close window menu
+    - game window that open afrer clicking button play.
