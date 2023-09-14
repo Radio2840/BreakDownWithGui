@@ -23,6 +23,8 @@ public class Game implements KeyListener {
 
 
     Game() {
+        gameframe.addKeyListener(this);
+        gameframe.setSize(640,480);
         gameframe.setLayout(null);
         plank.setBounds(290, 380, 50, 5);
         try {
@@ -33,11 +35,6 @@ public class Game implements KeyListener {
             e.printStackTrace();
         }
 
-        //plank.setBackground(Color.orange);
-       // plank.setOpaque(true);
-        //plank.setBounds(0,0,100,100);
-        gameframe.addKeyListener(this);
-        gameframe.setSize(640,480);
         gameframe.add(plank);
         gameframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         gameframe.setVisible(true);
@@ -51,10 +48,24 @@ public class Game implements KeyListener {
         int y = plank.getY();
             switch(e.getKeyChar()) {
                 case 'a':
-                    plank.setLocation(x-6,y);
+                    if(x==2){
+                        break;
+                    }
+                    else {
+                        plank.setLocation(x-8,y);
+                    }
+
+
                     break;
                 case 'd':
-                    plank.setLocation(x+6,y);
+                    if(x==570){
+                        break;
+                    }
+                    else {
+                        plank.setLocation(x+8,y);
+                    }
+
+
                     break;
                 default:
                     // code block
@@ -68,10 +79,21 @@ public class Game implements KeyListener {
         int y = plank.getY();
         switch(e.getKeyCode()) {
             case 37:
-                plank.setLocation(x-6,y);
+                if(x==2){
+                    break;
+                }
+                else {
+                    plank.setLocation(x-8,y);
+                }
+                plank.setLocation(x-8,y);
                 break;
             case 39:
-                plank.setLocation(x+6,y);
+                if(x==570){
+                    break;
+                }
+                else {
+                    plank.setLocation(x+8,y);
+                }
                 break;
             default:
                 // code block

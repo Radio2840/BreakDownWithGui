@@ -13,3 +13,9 @@
 1. Added new windows:
     - Menu with menu label and 4 buttons. Button play opens window game and close window menu
     - game window that open afrer clicking button play.
+#### Verison 0.2:
+1. Added Plank:
+    - plank moves on the left on keys 'a',left arrow.
+    - plank moves on the right on keys 'd',right arrow.
+    - plank does not stops on borders.
+    - added Demo Image on plank
