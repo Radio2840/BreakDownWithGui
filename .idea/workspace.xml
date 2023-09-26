@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="299769d2-8247-48d7-8d9e-def2197ac86f" name="Changes" comment="Added image to plank">
+    <list default="true" id="299769d2-8247-48d7-8d9e-def2197ac86f" name="Changes" comment="Plank now can not go out the border">
+      <change afterPath="$PROJECT_DIR$/src/Images/1life.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/2lifes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/3lifes.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs.md" beforeDir="false" afterPath="$PROJECT_DIR$/Logs.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WhatDoINeed.md" beforeDir="false" afterPath="$PROJECT_DIR$/WhatDoINeed.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Brick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Brick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Windows/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Windows/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Windows/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Windows/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +55,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ASUS\Desktop\BrekDownWithGUI\src\Windows" />
       <recent name="C:\Users\ASUS\Desktop\BrekDownWithGUI\src\Images" />
+      <recent name="C:\Users\ASUS\Desktop\BrekDownWithGUI\src\Windows" />
       <recent name="C:\Users\ASUS\Desktop\BrekDownWithGUI\src" />
     </key>
   </component>
@@ -104,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694686246923</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Plank now can not go out the border">
+      <created>1694687159191</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1694687159191</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,6 +139,7 @@
     <MESSAGE value="Added more windows that dispose on close." />
     <MESSAGE value="Added plank that moves if key pressed." />
     <MESSAGE value="Added image to plank" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added image to plank" />
+    <MESSAGE value="Plank now can not go out the border" />
+    <option name="LAST_COMMIT_MESSAGE" value="Plank now can not go out the border" />
   </component>
 </project>

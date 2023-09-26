@@ -16,30 +16,41 @@ public class Menu implements ActionListener{
     private JPanel myPanelForMenu = new JPanel();
     private JPanel myPanelForButtons = new JPanel();
     private Dimension sizeOfWindow = new Dimension(640,480);
-
-
-
-    public void SetMyGui() {
-        myPanelForButtons.setBounds(0,100,sizeOfWindow.width,380);
+    private Dimension invisibleBox = new Dimension(sizeOfWindow.width,5);
+    public void myButtonsPannelSettings() {
+        myPanelForButtons.setSize(300,380);
+        myPanelForButtons.setLayout(new BoxLayout(myPanelForButtons,BoxLayout.Y_AXIS));
         myPanelForButtons.add(playB);
+        myPanelForButtons.add(Box.createRigidArea(invisibleBox));
         myPanelForButtons.add(helpB);
+        myPanelForButtons.add(Box.createRigidArea(invisibleBox));
         myPanelForButtons.add(settingsB);
+        myPanelForButtons.add(Box.createRigidArea(invisibleBox));
         myPanelForButtons.add(aboutMeB);
+    }
+    public void myMenuPannelSettings(){
+        myPanelForMenu.setSize(sizeOfWindow.width,100);
+        menuLabel.setFont(new Font("Serif", Font.PLAIN, 80));
+        myPanelForMenu.setLayout(new FlowLayout());
+        myPanelForMenu.add(menuLabel);
+    }
+    public void setActionLisenerForButtons(){
         playB.addActionListener(this);
         helpB.addActionListener(this);
         settingsB.addActionListener(this);
         aboutMeB.addActionListener(this);
-        myPanelForMenu.setBounds(0,0,sizeOfWindow.width,100);
-        menuLabel.setFont(new Font("Serif", Font.PLAIN, 80));
+    }
+    public void SetMyGui() {
+        myMenuPannelSettings();
+        myButtonsPannelSettings();
+        setActionLisenerForButtons();
         //myPanelForButtons.setBackground(Color.pink);
         menu.setSize(640,480);
-        myPanelForMenu.setLayout(new FlowLayout());
-        myPanelForMenu.add(menuLabel);
+        menu.setLayout(new FlowLayout());
         menu.add(myPanelForMenu);
         menu.add(myPanelForButtons);
         menu.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         menu.setTitle("Menu");
-        menu.setLayout(null);
         menu.setVisible(true);
     }
 

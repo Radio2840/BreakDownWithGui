@@ -7,15 +7,11 @@ public class Brick {
     Random rand = new Random();
 
     private Color colorRGB;
-    final private int sizea=5;
-    final private int sizeb=10;
-    private int positionX;
-    private int positionY;
+    final public int sizex=80;
+    final public int sizey=30;
 
-    public Brick( int positionX, int positionY) {
-        this.colorRGB = ColorRGB();
-        this.positionX = positionX;
-        this.positionY = positionY;
+    public Brick(Color colorRGB) {
+        this.colorRGB = colorRGB;
     }
 
     public Color ColorRGB(){
@@ -23,8 +19,5 @@ public class Brick {
         float g = rand.nextFloat();
         float b = rand.nextFloat();
         return new Color(r,g,b);
-    }
-    public boolean didItHitMe(){
-        return false;
     }
 }

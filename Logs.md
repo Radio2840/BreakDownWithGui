@@ -17,5 +17,5 @@
 1. Added Plank:
     - plank moves on the left on keys 'a',left arrow.
     - plank moves on the right on keys 'd',right arrow.
-    - plank does not stops on borders.
+    - plank does stops on borders.
     - added Demo Image on plank

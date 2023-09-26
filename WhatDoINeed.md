@@ -58,5 +58,11 @@ https://pl.khanacademy.org/computing/computer-programming/programming/good-pract
    - Wall[ABSTRACT]{.didSomeoneTouchedMe()} <!--Do I need it? I need to learn gui, that will be my first step-->
    - lava_Flor{Wall}
 
+
+## My nemesis Collision that I am doing for my first time in life
+
+https://www.youtube.com/watch?v=z7xMIRzIDpU - for help ^^
+https://www.youtube.com/watch?v=oOEnWQZIePs - next help
+
   
 
