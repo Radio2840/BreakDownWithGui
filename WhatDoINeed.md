@@ -64,5 +64,16 @@ https://pl.khanacademy.org/computing/computer-programming/programming/good-pract
 https://www.youtube.com/watch?v=z7xMIRzIDpU - for help ^^
 https://www.youtube.com/watch?v=oOEnWQZIePs - next help
 
+Starting thinking about collision...
+
+1. I need to get class that will be moveing my ball ^^
+2. before my ball will move my game checking how far my ball is from every brick.
+3. ## the borders that I need to thing about it (position - I think it will be the center of label (I need to check it))
+4. when my ball sprite is from brick far as 0px the brick will disapear
+5. ### how do I know what brick? - table of brick and jumping on one another thats why I need table of bricks
+6. When the brick desapear one point is added (creating new label and deleting old. or changeing label)
+7. when my ball is under the height of plank ball is moved to the center and the life label is changeing from 3.png to 2.png
+  
+
   
 
