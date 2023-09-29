@@ -19,3 +19,7 @@
     - plank moves on the right on keys 'd',right arrow.
     - plank does stops on borders.
     - added Demo Image on plank
+#### Version 0.3:
+1. Set buttons:
+    - set buttons in menu in Y-position.
+    - changed layout from flow layut to box layout
